@@ -144,6 +144,12 @@ def user_login(request):
         return render(request, 'menti/login.html', {})
 
 
+# TODO ADD LOGOUT VIEW
+def logout_view(request):
+    logout(request)
+    return render(request, 'menti/logout.html')
+
+
 @login_required
 def profile(request):
     """View, Update Your Profile"""

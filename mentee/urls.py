@@ -1,8 +1,8 @@
 from django.urls import path
 
-from . views import mentee, mentor
+from .views import mentee, mentor
 from django.contrib.auth import views as auth_views
-from django.conf.urls import url
+# from django.conf.urls import pa
 
 
 
@@ -24,12 +24,13 @@ urlpatterns = [
     #path('reply/<int:pk>', mentee.ReplyCreateView.as_view(), name="reply"),
     #path('login/', auth_views.LoginView.as_view(template_name='menti/login.html'), name='login'),
     path('login/', mentee.user_login, name='login'),
-    path('logout/', auth_views.LogoutView.as_view(template_name='menti/logout.html'), name='logout'),
+    # path('logout/', auth_views.LogoutView.as_view(template_name='menti/logout.html'), name='logout'),
+    path('logout/', mentee.logout_view, name='logout'),
     path('list-message/', mentee.MessageListView.as_view(), name='list'),
     path('inbox-message/', mentee.InboxView.as_view(), name='inbox1'),
     path('delete/<int:pk>', mentee.SentMessageDelete.as_view(), name='delete'),
     path('approved/', mentee.Approved.as_view(), name='approved'),
-    url(r'^send/(?P<pk>[-\w]+)/$', mentee.CreateMessageView.as_view(), name='send'),
+    path(r'^send/(?P<pk>[-\w]+)/$', mentee.CreateMessageView.as_view(), name='send'),
     path('profile/<int:pk>', mentee.ProfileDetailView.as_view(), name="profile-detail"),
     path('conversation/', mentee.ConversationListView.as_view(), name='conv'),
     path('conv1/<int:pk>', mentee.ConversationDetailView.as_view(), name='conv1-reply'),
@@ -61,7 +62,7 @@ urlpatterns = [
     path('list-message1/', mentor.MessageListView.as_view(), name='list1'),
     path('delete-mentor/<int:pk>', mentor.SentMessageDelete.as_view(), name='delete1'),
     #path('comment/<int:pk>', mentor.reply_message, name='comment'),
-    url(r'^comment/(?P<pk>[-\w]+)/$', mentor.reply_message, name='comment'),
+    path(r'^comment/(?P<pk>[-\w]+)/$', mentor.reply_message, name='comment'),
     path('sent-detail/<int:pk>', mentor.SentDetailView.as_view(), name="sent1"),
     path('approved1/', mentor.Approved.as_view(), name='approved1'),
     path('profile1/<int:pk>', mentor.ProfileDetailView.as_view(), name="profile-detail1"),
