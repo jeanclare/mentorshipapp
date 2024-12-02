@@ -16,6 +16,7 @@ urlpatterns = [
     path('account/', mentee.AccountList.as_view(), name="account"),
     path('register/', mentee.register, name="register"),
     path('profile/', mentee.profile, name="profile"),
+    path('about/', mentee.about, name="about"),
     path('message-module/', mentee.MessageView.as_view(), name="module-message"),
     #path('message-module/', mentee.messege_view, name="module-message"),
     path('message/', mentee.MessageCreateView.as_view(), name="Message"),

@@ -1,0 +1,139 @@
+{% extends 'menti/base.html' %}
+
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+    <body>
+  <!--header-->
+  <header class="main-header" id="header">
+    <div class="bg-color">
+      <!--nav-->
+      <nav class="nav navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="fa fa-bars"></span>
+                        </button>
+              <a href="index.html" class="navbar-brand">Mentor-Mentee Match</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="mynavbar">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#header">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#mission">Our Mission</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!--/ nav-->
+      <div class="container text-center">
+        <div class="wrapper wow fadeInUp delay-05s">
+          <h2 class="top-title">Welcome to Mentor-Mentee Match</h2>
+          <h3 class="title">Connecting Mentors and Mentees for Growth and Success</h3>
+          <h4 class="sub-title">Join our community and start your journey today</h4>
+          <button type="submit" class="btn btn-submit">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--/ header-->
+  <!---->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="head-title">About Us</h2>
+          <hr class="botm-line">
+          <p>Our platform is dedicated to bringing mentors and mentees together to foster personal and professional development. Whether you're looking to share your knowledge or seeking guidance, our community is here to support you every step of the way.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---->
+  <section id="mission" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="head-title">Our Mission</h2>
+          <hr class="botm-line">
+          <p>We believe in the power of mentorship to transform lives. Our mission is to create meaningful connections that inspire growth, facilitate learning, and promote success in various fields and industries.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---->
+  <section id="how-it-works" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="head-title">How It Works</h2>
+          <hr class="botm-line">
+          <ol>
+            <li><strong>Sign Up:</strong> Create a profile as a mentor or mentee.</li>
+            <li><strong>Match:</strong> Our intelligent matching algorithm connects you with the most suitable mentor or mentee based on your preferences and goals.</li>
+            <li><strong>Connect:</strong> Start building a relationship through messages, video calls, and in-person meetings.</li>
+            <li><strong>Grow:</strong> Engage in regular sessions, share experiences, and achieve your personal and professional goals together.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---->
+  <section id="testimonials" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="head-title">Testimonials</h2>
+          <hr class="botm-line">
+          <p>"Mentor-Mentee Match has completely transformed my career. The guidance and support I received from my mentor have been invaluable." - Mentee</p>
+          <p>"As a mentor, I have found great satisfaction in sharing my experiences and helping others grow. This platform is truly a game-changer." - Mentor</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="head-title">Contact Us</h2>
+          <hr class="botm-line">
+          <p>If you have any questions or need more information, feel free to reach out to us. We're here to help you on your mentoring journey.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!---->
+</body>
+
+{#    <div class="container">#}
+{#        <div class="jumbotron">#}
+{#            <h1>Welcome to Mentor-Mentee Match</h1>#}
+{#            <p>Your journey to impactful mentoring starts here. Connect, grow, and succeed together.</p>#}
+{#        </div>#}
+{##}
+{#        <div class="about-us">#}
+{#            <h2>About Us</h2>#}
+{#            <p>Our platform is designed to bring mentors and mentees together to foster growth, learning, and professional development. Whether you're looking to share your knowledge or seeking guidance, our community is here to support you.</p>#}
+{#        </div>#}
+
+{#        <div class="login-section">#}
+{#            <h2>Login here:</h2>#}
+{#            <form method="post" action="{% url 'login' %}">#}
+{#                {% csrf_token %}#}
+{#                <label for="username">Username:</label>#}
+{#                <input type="text" name="username" placeholder="Username">#}
+{#                <label for="password">Password:</label>#}
+{#                <input type="password" name="password" placeholder="Password">#}
+{#                <input type="submit" value="Login">#}
+{#            </form>#}
+{#        </div>#}
+{#    </div>#}
+{% endblock %}

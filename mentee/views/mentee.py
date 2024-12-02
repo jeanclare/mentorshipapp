@@ -149,6 +149,12 @@ def logout_view(request):
     logout(request)
     return render(request, 'menti/logout.html')
 
+# About
+
+def about(request):
+    return render(request, 'menti/about.html')
+
+
 
 @login_required
 def profile(request):
