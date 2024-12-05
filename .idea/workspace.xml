@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="335a17c4-c6fc-4830-90e7-92e23d0368f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Mentor-Space.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mentor-Space.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mentee/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/mentee/static/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mentee/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentee/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mentee/templates/menti/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentee/templates/menti/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mentee/templates/menti/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentee/templates/menti/base.html" afterDir="false" />
-    </list>
+    <list default="true" id="335a17c4-c6fc-4830-90e7-92e23d0368f5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -286,7 +278,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Clare/mentorshipapp/mentee/static/img",
+    "last_opened_file_path": "C:/Users/Clare/mentorshipapp",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -363,6 +355,7 @@
       <workItem from="1732864595152" duration="7933000" />
       <workItem from="1733163972254" duration="5432000" />
       <workItem from="1733324305369" duration="9473000" />
+      <workItem from="1733335749166" duration="1095000" />
     </task>
     <servers />
   </component>

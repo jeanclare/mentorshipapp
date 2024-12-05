@@ -10,20 +10,26 @@
 
     <link rel="stylesheet" type="text/css" href="{% static 'mentee/main.css' %}">
       <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.css' %}">
+      <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
       <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-grid.css' %}">
       <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-reboot.css' %}">
       <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
       <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+      <link rel="stylesheet" type="text/css" href="/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="/css/animate.css">
 
-    <title>Mentorship App</title>
+
+
+    <title>Mentor Match</title>
   </head>
   <body>
 
   <header class="site-header">
-      <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
+      <nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="">Mentorship App</a>
+          <a class="navbar-brand mr-4" href="">Mentor Match</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -39,9 +45,11 @@
                 <a class="nav-item nav-link" href="{% url 'account' %}">Account</a>
                 <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
               {% else %}
-                <a class="nav-item nav-link" href="{% url 'home' %}">Home</a>
+                <a class="nav-item nav-link" href="{% url 'about' %}">About</a>
+                <a class="nav-item nav-link" href="{% url 'home' %}">Sign Up</a>
                 <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
                 <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+
               {% endif %}
             </div>
           </div>
