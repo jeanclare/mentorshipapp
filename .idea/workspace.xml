@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="335a17c4-c6fc-4830-90e7-92e23d0368f5" name="Default Changelist" comment="" />
+    <list default="true" id="335a17c4-c6fc-4830-90e7-92e23d0368f5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Mentor-Space.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mentor-Space.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/default.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/default.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/ken.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/ken.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/ken_Cz6KS7z.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/ken_kpIDgkI.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/kennedy_9fCt3dE.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/kennedy_orje5Oh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentee/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mentee/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentee/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/mentee/static/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentee/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentee/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentee/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentee/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentee/templates/menti/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentee/templates/menti/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentee/templates/menti/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentee/templates/menti/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentee/templates/menti/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentee/templates/menti/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentee/templates/menti/profile_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentee/templates/menti/profile_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentee/templates/mentor/account1.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentee/templates/mentor/account1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentorship/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mentorship/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -270,39 +291,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Clare/mentorshipapp",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "inlay.hints",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Clare/mentorshipapp&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Clare\mentorshipapp\media\profile_pics" />
       <recent name="C:\Users\Clare\mentorshipapp\mentee\static\img" />
+      <recent name="C:\Users\Clare\mentorshipapp\mentee\static\css" />
+      <recent name="C:\Users\Clare\mentorshipapp\mentee\static" />
       <recent name="C:\Users\Clare\mentorshipapp\mentee\img" />
-      <recent name="$PROJECT_DIR$/mentee/templates/mentor" />
-      <recent name="$PROJECT_DIR$/mentee" />
-      <recent name="$PROJECT_DIR$/mentee/templates/menti" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Clare\mentorshipapp\media" />
       <recent name="C:\Users\Clare\mentorshipapp\static" />
       <recent name="$PROJECT_DIR$/media" />
       <recent name="$PROJECT_DIR$/media/profile_pics" />
       <recent name="$PROJECT_DIR$/mentee" />
-      <recent name="$PROJECT_DIR$/mentee/templates/menti" />
     </key>
   </component>
   <component name="RunManager">
@@ -356,6 +377,10 @@
       <workItem from="1733163972254" duration="5432000" />
       <workItem from="1733324305369" duration="9473000" />
       <workItem from="1733335749166" duration="1095000" />
+      <workItem from="1733391080715" duration="12399000" />
+      <workItem from="1733650117831" duration="23611000" />
+      <workItem from="1733728766795" duration="4862000" />
+      <workItem from="1733748084692" duration="4218000" />
     </task>
     <servers />
   </component>
@@ -400,6 +425,16 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/mentee/models.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mentee/templates/menti/chat-confirm-delete.html">

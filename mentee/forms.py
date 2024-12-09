@@ -48,7 +48,7 @@ class MenteeRegisterForm(UserCreationForm):
 class UserInfoForm(forms.ModelForm):
 
     interest = forms.ChoiceField(required=True, widget=forms.RadioSelect(
-        attrs={'class': 'Radio'}), choices=(('economics', 'Economics'), ('bbit', 'BBIT'),))
+        attrs={'class': 'Radio'}), choices=(('Soft Skills', 'Technical Skills'), ('bbit', 'BBIT'),))
 
     class Meta():
         model = UserInfo
@@ -98,7 +98,7 @@ class MentorRegisterForm(UserCreationForm):
 class UserInfoForm(forms.ModelForm):
 
     interest = forms.ChoiceField(required=True, widget=forms.RadioSelect(
-        attrs={'class': 'Radio'}), choices=(('economics', 'Economics'), ('bbit', 'BBIT'),))
+        attrs={'class': 'Radio'}), choices=(('softskills', 'Soft Skills'), ('technicalskills', 'Technical Skills'),))
 
     class Meta():
         model = UserInfo

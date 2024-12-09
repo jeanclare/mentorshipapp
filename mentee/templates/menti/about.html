@@ -47,7 +47,9 @@
           <h2 class="top-title">Welcome to Mentor-Mentee Match</h2>
           <h3 class="title">Connecting Mentors and Mentees for Growth and Success</h3>
           <h4 class="sub-title">Join our community and start your journey today</h4>
-          <button type="submit" class="btn btn-submit">Get Started</button>
+{#          <button type="submit" class="btn btn-submit">Get Started</button>#}
+              <a class="btn btn-primary btn-lg" href="{% url 'home' %}" role="button">Get Started</a><br><br>
+
         </div>
       </div>
     </div>
@@ -100,9 +102,10 @@
               <p class="txt-para">Create a profile as a mentor or mentee, specifying your goals and preferences.</p>
             </div>
 
-          <div class="col-md-6 wow fadeInRight delay-02s">
+          <div class="col-md-4 wow fadeInRight delay-02s">
             <div class="icon">
-              <i class="fa fa-handshake-o"></i>
+                <i class="bi bi-arrow-down-up"></i>
+{#              <i class="fa fa-handshake-o"></i>#}
             </div>
           </div>
        </div>
@@ -113,20 +116,22 @@
           </div>
           <div class="col-md-4 wow fadeInRight delay-04s">
             <div class="icon">
-              <i class="fa fa-comments"></i>
+                <i class="bi bi-gear-wide-connected"></i>
+{#              <i class="fa fa-comments"></i>#}
             </div>
             <div class="icon-text">
               <h3 class="txt-tl">Connect</h3>
               <p class="txt-para">Start building a relationship through messages, video calls, and in-person meetings.</p>
             </div>
 
-          <div class="col-md-6 wow fadeInRight delay-04s">
+          <div class="col-md-8 wow fadeInRight delay-04s">
             <div class="icon">
-              <i class="fa fa-chart-line"></i>
+                <i class="bi bi-bar-chart-fill"></i>
+{#              <i class="fa fa-chart-line"></i>#}
             </div>
             <div class="icon-text">
               <h3 class="txt-tl">Grow</h3>
-              <p class="txt-para">Engage in regular sessions, share experiences, and achieve your personal and professional goals together.</p>
+              <p class="txt-para">Engage in regular sessions, share experiences and achieve your personal and professional goals together.</p>
             </div>
           </div>
         </div>
@@ -169,17 +174,65 @@
     </div>
   </section>
   <!---->
-  <section id="contact" class="section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <h2 class="head-title">Contact Us</h2>
-          <hr class="botm-line">
-          <p>If you have any questions or need more information, feel free to reach out to us. We're here to help you on your mentoring journey.</p>
-        </div>
+{#  <section id="contact" class="section-padding">#}
+{#    <div class="container">#}
+{#      <div class="row">#}
+{#        <div class="col-md-12 text-center">#}
+{#          <h2 class="head-title">Contact Us</h2>#}
+{#          <hr class="botm-line">#}
+{#          <p>If you have any questions or need more information, feel free to reach out to us. We're here to help you on your mentoring journey.</p>#}
+{#        </div>#}
+{#      </div>#}
+{#    </div>#}
+{#  </section>#}
+
+    <!-- Footer -->
+<!-- Footer -->
+<footer id="contact" style="background-color: #D3D3D3; padding: 60px 0; text-align: center;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 class="head-title" style="color: #007bff;">Contact Us</h2>
+        <hr class="botm-line" style="width: 50px; height: 3px; background-color: #007bff; margin: 20px auto;">
+        <p style="color: #333;">If you have any questions or need more information, feel free to reach out to us. We're here to help you on your mentoring journey.</p>
+        <ul class="contact-info" style="list-style: none; padding: 0; margin: 20px 0;">
+          <li style="margin: 10px 0; font-size: 1.2rem;"><i class="bi bi-envelope-fill" style="color: #333; margin-right: 10px;"></i> info@mentormentee.com</li>
+          <li style="margin: 10px 0; font-size: 1.2rem;"><i class="bi bi-telephone-fill" style="color: #333; margin-right: 10px;"></i> +254 722 903 201</li>
+        </ul>
+        <ul class="social-icons" style="list-style: none; padding: 0; margin: 20px 0; display: flex; justify-content: center; gap: 10px;">
+          <li><a href="#" style="color: #333; font-size: 1.5rem; transition: color 0.3s;"> <i class="bi bi-facebook"></i></a></li>
+          <li><a href="#" style="color: #333; font-size: 1.5rem; transition: color 0.3s;"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="#" style="color: #333; font-size: 1.5rem; transition: color 0.3s;"><i class="bi bi-linkedin"></i></a></li>
+        </ul>
       </div>
     </div>
-  </section>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     </body>
   {% endblock %}
